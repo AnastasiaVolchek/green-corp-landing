@@ -56,7 +56,9 @@ header {
     position:absolute;
   }
 
+
   .about {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -66,6 +68,15 @@ header {
     background-position: center;
     background-size: cover;
   }
+
+  .orb-canvas {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    right: 0;
+  }
+
 
   .about h1 {
     font-size: 70px;
@@ -209,6 +220,8 @@ header {
   .footer__links a {
     margin-bottom: 15px;
   }
+
+
 
   @keyframes rotation {
     0%{
